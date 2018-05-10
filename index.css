@@ -1,0 +1,26 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+}
+#input {
+	display: block;
+	margin: 10px auto;
+}
+.canvas-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+canvas {
+	margin: 10px auto;
+	border: solid 5px;
+}
+#download {
+	text-align: center;
+	text-decoration: none;
+	color: red;
+	font-size: 2rem;
+}
